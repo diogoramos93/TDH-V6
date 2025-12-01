@@ -71,4 +71,6 @@ export interface DashboardStats {
   testsCompleted: number;
   salesCount: number;
   totalRevenue: number;
+  recentSales: { id: string; date: string; amount: number }[];
+  dailyActivity: { date: string; started: number; completed: number }[];
 }
